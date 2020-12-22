@@ -5,6 +5,7 @@
   "license": "MIT",
   "scripts": {
     "start:admin-service": "cd admin-service && docker-compose up -d",
+    "restart:admin-service": "cd admin-service && docker-compose restart",
     "start": "run-p start:admin-service"
   },
   "devDependencies": {
